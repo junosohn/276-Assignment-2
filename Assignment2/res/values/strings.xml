@@ -50,5 +50,12 @@
     <string name="rectangleinput">Input n-value for nxn grid: </string>
     <string name="creategrid">Create Grid</string>
     <string name="title_activity_rectangle">RectangleActivity</string>
+    <string name="rError">Input Error</string>
+    <string name="rectangleerror">Please input n value 1 to 15.</string>
+    <string name="cont">CONTINUE</string>
+    <string name="exit">EXIT</string>
+    <string name="emptyinput">Please input a number.</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="title_activity_rectangle_fragment">RectangleFragment</string>
 
 </resources>

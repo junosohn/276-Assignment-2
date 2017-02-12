@@ -16,7 +16,7 @@ public class EntryActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_entry);
 	}
-
+	
 	// Register button
 	public void Register(View view){
 		Intent intent = new Intent(this, SignUpActivity.class);

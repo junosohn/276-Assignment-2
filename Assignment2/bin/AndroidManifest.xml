@@ -16,11 +16,6 @@
         <activity
             android:name=".EntryActivity"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".LoginActivity"
@@ -31,24 +26,21 @@
             android:label="@string/title_activity_sign_up" >
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main" >
-        </activity>
-        <activity
             android:name=".GalleryActivity"
             android:label="@string/title_activity_gallery" >
         </activity>
         <activity
             android:name=".MenuActivity"
             android:label="@string/title_activity_menu" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name=".HelpActivity"
             android:label="@string/title_activity_help" >
-        </activity>
-        <activity
-            android:name=".SquareActivity"
-            android:label="@string/title_activity_square" >
         </activity>
         <activity
             android:name=".TriangleActivity"
@@ -59,12 +51,12 @@
             android:label="@string/title_activity_flow" >
         </activity>
         <activity
-            android:name=".RectangleInputActivity"
-            android:label="@string/title_activity_rectangle_input" >
-        </activity>
-        <activity
             android:name=".RectangleActivity"
             android:label="@string/title_activity_rectangle" >
+        </activity>
+        <activity
+            android:name=".RectangleFragment"
+            android:label="@string/title_activity_rectangle_fragment" >
         </activity>
     </application>
 

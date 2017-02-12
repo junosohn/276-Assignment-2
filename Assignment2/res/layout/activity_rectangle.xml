@@ -8,9 +8,44 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.assignment2.RectangleActivity" >
 
-    <TextView
+    <EditText
+        android:id="@+id/input"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="10"
+        android:inputType="number" >
 
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/input"
+        android:layout_alignBottom="@+id/input"
+        android:layout_alignParentLeft="true"
+        android:text="@string/rectangleinput" />
+
+    <Button
+        android:id="@+id/btn_creategrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/input"
+        android:layout_centerHorizontal="true"
+        android:onClick="ChangeFragment"
+        android:text="@string/creategrid"
+        android:textColor="@color/button_color" />
+
+    <fragment
+        android:id="@+id/fragment_place"
+        android:name="com.example.assignment2.RectangleFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/input"
+        android:layout_below="@+id/btn_creategrid" />
+    
 </RelativeLayout>

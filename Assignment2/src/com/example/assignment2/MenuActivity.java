@@ -15,9 +15,14 @@ public class MenuActivity extends Activity {
 		setContentView(R.layout.activity_menu);
 	}
 
+	// Back button returns to FlowActivity
+	public void onBackPressed() {
+		finish();
+	}
+
 	// Square Game
 	public void Square(View view){
-		Intent intent = new Intent(this, RectangleInputActivity.class);
+		Intent intent = new Intent(this, RectangleActivity.class);
 		startActivity(intent);
 	}
 	
