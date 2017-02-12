@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assignment2</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_LOGIN">SIGNIN</string>
+    <string name="button_SIGNIN">Login</string>
+    <string name="button_SIGNUP">SignUp</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_message"></string>
+    <string name="firstname">First name:</string>
+    <string name="lastname">Last name:</string>
+    <string name="password">Password:</string>
+    <string name="studentID">Student ID:</string>
+    <string name="enter_fn">Enter your first name</string>
+    <string name="enter_ln">Enter your last name</string>
+    <string name="enter_id">Enter your student number</string>
+    <string name="invalid_input">Incorrect input</string>
+    <string name="invalid_pw">Password must be 6 characters and must contain 1 uppercase letter and 1 number.</string>
+    <string name="signin_success">Your account has been successfully created!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_dbadapter">DBAdapter</string>
+    <string name="title_activity_entry">EntryActivity</string>
+    <string name="error">Password Error</string>
+    <string name="loginError">Password must not contain spaces or special characters.</string>
+    <string name="back">Return</string>
+    <string name="wrongpassword">Wrong password. Please try again.</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_help">HelpActivity</string>
+    <string name="gallery">Visit A Gallery</string>
+    <string name="mainmenu">Main Menu</string>
+    <string name="help">Need Help</string>
+    <string name="square">Square Game</string>
+    <string name="triangle">Triangle Game</string>
+    <string name="title_activity_square">SquareActivity</string>
+    <string name="title_activity_triangle">TriangleActivity</string>
+    <string name="coursepage">https://courses.cs.sfu.ca/2017sp-cmpt-276-d1/pages/index</string>
+    <string name="about">This program was written by Junho Sohn for CMPT 276, Assignment 2. Starting from the registration and login page using
+        the built-in SQLite database, it also features two games: Colour Squares and Animated Triangles.</string>
+    <string name="about2">In Colour Squares, the user will be given an input of an NxN grid and blocks will be coloured diagonally from the rightmost top position down to the leftmost bottom corner.
+        There will also be a restriction on the size of the grid of 15x15, as extremely large grids are not supported in this version.</string>
+    <string name="about3">The Animated Triangles game will allow the user to create triangles by clicking and will be given a variety of difficulties to play with.
+       The user will also be able to choose the number of triangles that appear and will have the options of difficulty as "easy", "hard", and "difficult". </string>
+    <string name="course">Course Page:</string>
+    <string name="title_activity_flow">FlowActivity</string>
+    <string name="title_activity_rectangle_input">RectangleInputActivity</string>
+    <string name="rectangleinput">Input n-value for nxn grid: </string>
+    <string name="creategrid">Create Grid</string>
+    <string name="title_activity_rectangle">RectangleActivity</string>
+
+</resources>

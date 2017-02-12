@@ -1,0 +1,38 @@
+Junho Sohn (junos)
+301301147
+
+DISCUSSION QUESTIONS
+
+1. Android SDK 
+---------------------------------
+(Software Development Kit) is a set of development tools used to develop apps for the Android platform, including libraries, a debugger, an emulator, and relevant documentation for the Android application program interfaces (also known as APIs).
+
+
+2. ADT 
+---------------------------------
+(Android Developer Tools) is a plugin for Eclipse, which is included in the Android SDK. It is a custom-plugin for the Eclipse IDE which provides an environment for Android app development.
+
+
+3. Android Manifest 
+---------------------------------
+AndroidManifest.xml file located in the root directory, it provides vital information about the app to the Android system. It is required to run the application as it names the Java packages used, describes components of the application, determines host processes, amongst many others.
+
+
+4. Android Emulator
+---------------------------------
+Included in the SDK, the emulator is a virtual Android platform that allows users to develop and test Android applications without a physical Android device. This can be configured through the Android Virtual Device (AVD), allowing multiple selections of devices and API levels.
+
+
+5. DDMS 
+---------------------------------
+(Dalvik Debug Monitor Server) is a debugging tool used for the Android platform, included as part of the Android SDK. It provides users to find bugs in application development running on an emulator or an actual Android device. It also comes with the LogCat feature, allowing users to see log messages.
+
+
+6. Purpose of MainActivity.java 
+---------------------------------
+As the primary role of any Activity is to present the user with a UI, MainActivity.java is the actual application file which gets converted to a Dalvik executable and runs the application.
+
+
+7. Purpose of activity_main.xml 
+---------------------------------
+This .xml file is responsible for the layout/UI of the activity or widget. It is the home to all of the elements or tools that are to be used in the application, such as Buttons, TextViews, EditTexts, Layouts, and many more.
