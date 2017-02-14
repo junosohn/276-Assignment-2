@@ -10,15 +10,17 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 
-
 public class RectangleActivity extends Activity {
+		
 	EditText INPUT;
 	Button btnCreateGrid;
+	int num;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -28,20 +30,13 @@ public class RectangleActivity extends Activity {
 		INPUT = (EditText)findViewById(R.id.input);
 		btnCreateGrid = (Button) findViewById(R.id.btn_creategrid);
 		checkInput();
-		
 	}
-
-
-	public void ChangeFragment(View view) {
-		Fragment fragment;
-			fragment = new RectangleFragment();
-			FragmentManager fm = getFragmentManager();
-			FragmentTransaction ft = fm.beginTransaction();
-			ft.replace(R.id.fragment_place, fragment);
-			ft.commit();
-	}
-
 	
+	// Getter function for value num (n)
+	public int getNum() {
+		return num;
+	}
+
 	// Check if n >= 15, output AlertDialog message
 	private void checkInput() {
 		btnCreateGrid.setOnClickListener(new View.OnClickListener() {
@@ -50,13 +45,20 @@ public class RectangleActivity extends Activity {
 			public void onClick(View v) {
 				String i = INPUT.getText().toString();
 				
-				if(!i.matches("")) { // Empty
-					int num = Integer.parseInt(i);
+				if(!i.matches("")) { // if not Empty
+					num = Integer.parseInt(i);
 					if(num > 15 || num == 0) { // n > 15
 						showMessage(getString(R.string.rError), getString(R.string.rectangleerror));
 					}
-					else { // VALID INPUT
-						ChangeFragment(v);
+					else { // VALID INPUT			
+						Toast.makeText(RectangleActivity.this, getString(R.string.click), Toast.LENGTH_SHORT).show();
+						
+						// Opens fragment for Rectangle Game
+						FragmentManager FM = getFragmentManager();
+						FragmentTransaction FT = FM.beginTransaction();
+						RectangleFragment rfrag = new RectangleFragment();
+						FT.add(R.id.fragmentrectangle, rfrag);
+						FT.commit();
 					}
 				}
 				else { // Empty input message
@@ -80,14 +82,12 @@ public class RectangleActivity extends Activity {
 				// Do nothing
 			}
 		});
-		
 		// EXIT Button
 		builder.setNegativeButton(getResources().getString(R.string.exit), new DialogInterface.OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
-				finish();
+				finish(); // Exit
 			}
-
 		});
 		
 		builder.show();

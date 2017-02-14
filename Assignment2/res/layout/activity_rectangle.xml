@@ -16,8 +16,6 @@
         android:layout_toRightOf="@+id/textView1"
         android:ems="10"
         android:inputType="number" >
-
-        <requestFocus />
     </EditText>
 
     <TextView
@@ -38,14 +36,15 @@
         android:onClick="ChangeFragment"
         android:text="@string/creategrid"
         android:textColor="@color/button_color" />
-
-    <fragment
-        android:id="@+id/fragment_place"
-        android:name="com.example.assignment2.RectangleFragment"
+    
+    <RelativeLayout
+        android:id="@+id/fragmentrectangle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/input"
-        android:layout_below="@+id/btn_creategrid" />
-    
+        android:layout_below="@+id/btn_creategrid" >
+
+    </RelativeLayout>
+
 </RelativeLayout>

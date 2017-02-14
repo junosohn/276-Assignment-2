@@ -16,7 +16,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="72dp"
-        android:text="@string/square"
+        android:text="@string/rectangle"
         android:onClick="Square"
         android:textColor="@color/button_color" />
 

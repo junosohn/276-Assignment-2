@@ -7,8 +7,8 @@ HOW TO ACCESS RegInfo.db:
 
   ID  |  FIRSTNAME  |   LASTNAME   |  STUDENTNUM  |  PASSWORD
 ------|-------------|--------------|--------------|------------
-   4  |	  Junho		|     Sohn	   |  301301147   |	  Cmpt99
-   5  |    Bob		|     Lee	   |  301478538   |   wP4kd8
-   6  |	  fariha    |     naz      |    12345     |   8Abcde
-   7  |	   jess     |	  smith    |    314159    |   Ilik69
-   8  |    test     |     app      |    101101    |   SQL1te
+   4  |	   Junho    |     Sohn	   |  301301147   |	  Cmpt99
+   5  |    Bob	    |     Lee	   |  301478538   |   wP4kd8
+   6  |	   fariha   |     naz      |  12345       |   8Abcde
+   7  |	   jess     |	  smith    |  314159      |   Ilik69
+   8  |    test     |     app      |  101101      |   SQL1te

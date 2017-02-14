@@ -20,7 +20,7 @@ public class MenuActivity extends Activity {
 		finish();
 	}
 
-	// Square Game
+	// Rectangle Game
 	public void Square(View view){
 		Intent intent = new Intent(this, RectangleActivity.class);
 		startActivity(intent);
