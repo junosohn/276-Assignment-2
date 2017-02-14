@@ -51,7 +51,7 @@ public class RectangleActivity extends Activity {
 						showMessage(getString(R.string.rError), getString(R.string.rectangleerror));
 					}
 					else { // VALID INPUT			
-						Toast.makeText(RectangleActivity.this, getString(R.string.click), Toast.LENGTH_SHORT).show();
+						Toast.makeText(RectangleActivity.this, getString(R.string.click), Toast.LENGTH_LONG).show();
 						
 						// Opens fragment for Rectangle Game
 						FragmentManager FM = getFragmentManager();
