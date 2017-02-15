@@ -39,11 +39,12 @@
     <string name="title_activity_triangle">TriangleActivity</string>
     <string name="coursepage">https://courses.cs.sfu.ca/2017sp-cmpt-276-d1/pages/index</string>
     <string name="about">This program was written by Junho Sohn for CMPT 276, Assignment 2. Starting from the registration and login page using
-        the built-in SQLite database, it also features two games: Colour Squares and Animated Triangles.</string>
-    <string name="about2">In Colour Squares, the user will be given an input of an NxN grid and blocks will be coloured diagonally from the rightmost top position down to the leftmost bottom corner.
+        the built-in SQLite database, it also features two games: Rectangle Game and Circle Game.</string>
+    <string name="about2">In the Rectangle Game, the player will be given an input of an NxN grid and blocks will be coloured diagonally from the rightmost top position down to the leftmost bottom corner.
         There will also be a restriction on the size of the grid of 15x15, as extremely large grids are not supported in this version.</string>
-    <string name="about3">The Animated Triangles game will allow the user to create triangles by clicking and will be given a variety of difficulties to play with.
-       The user will also be able to choose the number of triangles that appear and will have the options of difficulty as "easy", "hard", and "difficult". </string>
+    <string name="about3">The Circle Game tests the player of their reflexes by having circles appear and require the player to click on them.
+       The player will be able to choose the number of circles that appear through input and will have the options of difficulty as "easy", "medium", and "difficult". 
+       The score can be accessed by pressing the back button, where it will show the final score before exiting the game.</string>
     <string name="course">Course Page:</string>
     <string name="title_activity_flow">FlowActivity</string>
     <string name="title_activity_rectangle_input">RectangleInputActivity</string>
@@ -67,5 +68,7 @@
     <string name="title_activity_circle_fragment">CircleFragment</string>
     <string name="dError">Please enter a level of difficulty: easy, medium, difficult</string>
     <string name="title_activity_circle_game">CircleGameActivity</string>
-
+	<string name="scoremessage">FINAL SCORE</string>
+    <string name="score">Clicked: </string>
+	
 </resources>

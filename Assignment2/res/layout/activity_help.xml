@@ -7,7 +7,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.assignment2.HelpActivity" >
-
+    
     <TextView
         android:id="@+id/link"
         android:layout_width="wrap_content"
@@ -27,24 +27,6 @@
         android:text="@string/about" />
 
     <TextView
-        android:id="@+id/about2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/about"
-        android:layout_below="@+id/about"
-        android:layout_marginTop="14dp"
-        android:text="@string/about2" />
-
-    <TextView
-        android:id="@+id/about3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/about2"
-        android:layout_below="@+id/about2"
-        android:layout_marginTop="15dp"
-        android:text="@string/about3" />
-
-    <TextView
         android:id="@+id/course"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,5 +34,21 @@
         android:layout_below="@+id/about3"
         android:layout_marginTop="14dp"
         android:text="@string/course" />
+
+    <TextView
+        android:id="@+id/about3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about2"
+        android:layout_below="@+id/about2"
+        android:text="@string/about3" />
+
+    <TextView
+        android:id="@+id/about2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about"
+        android:layout_below="@+id/about"
+        android:text="@string/about2" />
 
 </RelativeLayout>
