@@ -28,7 +28,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="43dp"
         android:onClick="Triangle"
-        android:text="@string/triangle"
+        android:text="@string/circlegame"
         android:textColor="@color/button_color" />
     
 </RelativeLayout>

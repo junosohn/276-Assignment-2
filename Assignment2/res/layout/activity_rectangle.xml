@@ -13,13 +13,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@+id/textView1"
+        android:layout_toRightOf="@+id/shapesInput"
         android:ems="10"
         android:inputType="number" >
     </EditText>
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/shapesInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/input"
@@ -28,12 +28,11 @@
         android:text="@string/rectangleinput" />
 
     <Button
-        android:id="@+id/btn_creategrid"
+        android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/input"
         android:layout_centerHorizontal="true"
-        android:onClick="ChangeFragment"
         android:text="@string/creategrid"
         android:textColor="@color/button_color" />
     
@@ -41,9 +40,9 @@
         android:id="@+id/fragmentrectangle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignLeft="@+id/shapesInput"
         android:layout_alignParentBottom="true"
-        android:layout_below="@+id/btn_creategrid" >
+        android:layout_below="@+id/btnStart" >
 
     </RelativeLayout>
 

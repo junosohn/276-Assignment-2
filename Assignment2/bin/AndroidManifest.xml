@@ -58,6 +58,18 @@
             android:name=".RectangleFragment"
             android:label="@string/title_activity_rectangle_fragment" >
         </activity>
+        <activity
+            android:name=".CircleActivity"
+            android:label="@string/title_activity_circle" >
+        </activity>
+        <activity
+            android:name=".CircleFragment"
+            android:label="@string/title_activity_circle_fragment" >
+        </activity>
+        <activity
+            android:name=".CircleGameActivity"
+            android:label="@string/title_activity_circle_game" >
+        </activity>
     </application>
 
 </manifest>

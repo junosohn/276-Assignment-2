@@ -28,7 +28,7 @@ public class RectangleActivity extends Activity {
 		setContentView(R.layout.activity_rectangle);
 		
 		INPUT = (EditText)findViewById(R.id.input);
-		btnCreateGrid = (Button) findViewById(R.id.btn_creategrid);
+		btnCreateGrid = (Button) findViewById(R.id.btnStart);
 		checkInput();
 	}
 	

@@ -28,7 +28,7 @@ public class MenuActivity extends Activity {
 	
 	// Triangle Game
 	public void Triangle(View view){
-		Intent intent = new Intent(this, TriangleActivity.class);
+		Intent intent = new Intent(this, CircleActivity.class);
 		startActivity(intent);
 	}
 

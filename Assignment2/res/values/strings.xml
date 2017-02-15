@@ -57,6 +57,15 @@
     <string name="emptyinput">Please input a number.</string>
     <string name="title_activity_fragment">FragmentActivity</string>
     <string name="title_activity_rectangle_fragment">RectangleFragment</string>
-	<string name="click">Click any of the squares to colour them in diagonally!</string>
-    
+    <string name="click">Click any of the squares to colour them in diagonally!</string>
+    <string name="title_activity_circle">CircleActivity</string>
+    <string name="circlegame">Circle Game</string>
+    <string name="difficulty">Difficulty:</string>
+    <string name="numShapes">Number of Shapes:</string>
+    <string name="start">Start</string>
+    <string name="circleerror">Please input number of shapes from 1 to 10.</string>
+    <string name="title_activity_circle_fragment">CircleFragment</string>
+    <string name="dError">Please enter a level of difficulty: easy, medium, difficult</string>
+    <string name="title_activity_circle_game">CircleGameActivity</string>
+
 </resources>
