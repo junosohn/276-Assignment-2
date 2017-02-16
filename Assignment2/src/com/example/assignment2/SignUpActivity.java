@@ -42,7 +42,7 @@ public class SignUpActivity extends Activity {
 	public void AddData() {
 		btnAddData.setOnClickListener(new View.OnClickListener() {
 			
-			 // Password check (1 uppercase, 1 number, length 6
+			 // Password check (1 uppercase, 1 number, length 6)
 			@Override
 			public void onClick(View v) {
 				if( (editPassword.getText().toString().length() == 6) && check(editPassword.getText().toString())){

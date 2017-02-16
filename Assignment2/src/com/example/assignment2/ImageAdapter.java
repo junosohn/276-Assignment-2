@@ -7,50 +7,29 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
 
-public class ImageAdapter extends BaseAdapter {
+public class ImageAdapter {
 
-	private Context CTX;
-	private Integer image_id[] = {R.drawable.image_0, R.drawable.image_1, 
-			R.drawable.image_2, R.drawable.image_3, 
-			R.drawable.image_4, R.drawable.image_5, 
-			R.drawable.image_6, R.drawable.image_7
-	};
+	private String imageID;
+	private byte[] imageByteArray;
 	
-	public ImageAdapter(Context CTX) {
-		this.CTX = CTX;
-		
+	// Getter for imageID
+	public String getImageID() {
+		return imageID;
+	}
+
+	// Setter for imageID
+	public void setImageId(String imageID) {
+		this.imageID = imageID;
 	}
 	
-	@Override
-	public int getCount() {
-		return image_id.length;
+	// Getter for the byte array
+	public byte[] getImageByteArray() {
+		return imageByteArray;
 	}
-
-	@Override
-	public Object getItem(int position) {
-		return null;
+	
+	// Setter for the byte array
+	public void setImageByteArray(byte[] imageByteArray) {
+		this.imageByteArray = imageByteArray;
 	}
-
-	@Override
-	public long getItemId(int position) {
-		return 0;
-	}
-
-	@Override
-	public View getView(int position, View convertView, ViewGroup parent) {
-		ImageView img;
-		if(convertView == null){
-			img = new ImageView(CTX);
-			img.setLayoutParams(new GridView.LayoutParams(300,300));
-			img.setScaleType(ImageView.ScaleType.CENTER_CROP);
-			img.setPadding(8, 8, 8, 8);
-		}
-		else{
-			img = (ImageView) convertView;
-		}
-		
-		img.setImageResource(image_id[position]);
-		return img;
-	}
-
+	
 }

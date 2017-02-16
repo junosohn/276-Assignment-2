@@ -22,7 +22,8 @@ public class CircleGameActivity extends Activity {
 	public void showMessage(String title, String message, int score) {
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
 		builder.setTitle(title);
-		builder.setMessage(message + String.valueOf(score));		
+		builder.setMessage(message + String.valueOf(score) + "\n" 
+						+ getString(R.string.missed) + (CircleActivity.getNum() - score));		
 		builder.setCancelable(false);
 		
 		// EXIT Button

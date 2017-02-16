@@ -47,6 +47,10 @@
        The score can be accessed by pressing the back button, where it will show the final score before exiting the game.</string>
     <string name="course">Course Page:</string>
     <string name="title_activity_flow">FlowActivity</string>
+    <string name="btnImage1">Image 1</string>
+    <string name="btnImage2">Image 2</string>
+    <string name="btnImage3">Image 3</string>
+    <string name="btnImage4">Image 4</string>
     <string name="title_activity_rectangle_input">RectangleInputActivity</string>
     <string name="rectangleinput">Input n-value for nxn grid: </string>
     <string name="creategrid">Create Grid</string>
@@ -69,6 +73,7 @@
     <string name="dError">Please enter a level of difficulty: easy, medium, difficult</string>
     <string name="title_activity_circle_game">CircleGameActivity</string>
 	<string name="scoremessage">FINAL SCORE</string>
-    <string name="score">Clicked: </string>
-	
+    <string name="score">Clicked:</string>
+	<string name="missed">Missed:</string>
+    
 </resources>
