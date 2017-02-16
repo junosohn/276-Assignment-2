@@ -70,7 +70,7 @@ public class LoginActivity extends Activity {
 	}
 	
 	// Check if password contains spaces or special characters
-	private boolean check(String p){
+	public boolean check(String p){
 		if(Pattern.compile(" ").matcher(p).find()  || 
 		   Pattern.compile("[_$&+,:;=?@#|'<>.^*()%!-]").matcher(p).find() ){
 			return true;

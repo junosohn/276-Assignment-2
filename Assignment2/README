@@ -1,14 +1,15 @@
-USER INFO - RegInfo.db
+USER INFO - RegInfo2.db
 
-HOW TO ACCESS RegInfo.db:
-1) Open DDMS
-2) Select AVD Device
-3) Browse to: File Explorer/data/data/com.example.assignment2/databases/RegInfo.db
+NOTE: IGNORE ALL OTHER .db FILES!
+
+Images2 Table contains 4 images.
+
+RegInfo2 Table contains 5 accounts used for Login.
 
   ID  |  FIRSTNAME  |   LASTNAME   |  STUDENTNUM  |  PASSWORD
 ------|-------------|--------------|--------------|------------
    4  |	   Junho    |     Sohn	   |  301301147   |	  Cmpt99
-   5  |    Bob	    |     Lee	   |  301478538   |   wP4kd8
+   5  |    Bob	    |     Lee	   |  300111      |   wP4kd8
    6  |	   fariha   |     naz      |  12345       |   8Abcde
    7  |	   jess     |	  smith    |  314159      |   Ilik69
-   8  |    test     |     app      |  101101      |   SQL1te
+   8  |    a        |     b        |  1           |   A11111
